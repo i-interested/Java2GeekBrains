@@ -1,0 +1,36 @@
+#btn1 {
+    -fx-font: 14px "Serif";
+    -fx-padding: 5px;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
+
+
+#btn1:hover {
+    -fx-font: 14px "Serif";
+    -fx-padding: 5px;
+    -fx-background-color: yellow;
+    -fx-text-fill: green;
+}
+#exitMenuItem > .label{
+    -fx-graphic: url("/Lesson4/AdditionalTask/img/door.png");
+}
+
+#openMenuItem > .label{
+    -fx-graphic: url("/Lesson4/AdditionalTask/img/open.png");
+}
+
+#saveMenuItem > .label{
+    -fx-graphic: url("/Lesson4/AdditionalTask/img/save.png");
+}
+
+#textArea .content{
+    -fx-background-image: url("/Lesson4/AdditionalTask/img/forest.jpeg");
+    -fx-background-size: contain;
+}
+
+#textArea{
+    -fx-text-fill: red;
+    -fx-font: 22px "Serif";
+    -fx-font-weight: bold;
+}

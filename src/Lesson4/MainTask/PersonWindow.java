@@ -38,7 +38,7 @@ public class PersonWindow extends JFrame {
         centralPanel.add(textFieldPatronymic);
         centralPanel.add(new JLabel("Surname"));
         centralPanel.add(textFieldSurname);
-        
+
         JButton buttonEdit = new JButton("Edit");
         buttonEdit.addActionListener(e -> {
             editData();
