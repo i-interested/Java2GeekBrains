@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.TextFlow?>
+<HBox fx:controller="Lesson8.Client.PersonalController"
+      xmlns:fx="http://javafx.com/fxml" alignment="center">
+        <TextField fx:id="msgField" onAction="#btnClick" promptText="Введите сообщение..." HBox.hgrow="ALWAYS" />
+        <Button text="Отправить" fx:id="btn" onAction="#btnClick"/>
+</HBox>
